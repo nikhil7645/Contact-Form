@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family:'Lobster', cursive;
+    margin:15px 30px ;
+    font-size: 17px;
+    padding: 8px;
+    background-color: rgb(98, 148, 148);
+}
+.form{
+    height: 70%; 
+    width: 60%; 
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 6px 15px 20px 20px;
+    border: 1px solid rgb(209, 210, 194);
+    border-radius: 15px;
+    margin-left: 20%;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px 10px 10px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:10px;
+}
+input[type="submit"]{
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: cyan;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color: rgb(227, 174, 14);
+}
